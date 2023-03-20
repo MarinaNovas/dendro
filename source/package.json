@@ -1,0 +1,58 @@
+{
+    "name": "project-dendro",
+    "version": "1.0.0",
+    "description": "",
+    "license": "UNLICENSED",
+    "private": true,
+    "prettier": {
+        "arrowParens": "avoid",
+        "bracketSpacing": false,
+        "endOfLine": "lf",
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 120,
+        "proseWrap": "preserve",
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "es5"
+    },
+    "engines": {
+        "yarn": "^1.22.0"
+    },
+    "scripts": {
+        "clean": "@powershell -Command Remove-Item -Recurse ./out",
+        "zip": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command Compress-Archive -Path ./out -DestinationPath ./out -PassThru",
+        "build": "webpack --mode=production",
+        "start": "webpack --mode=development --watch",
+        "serve": "webpack serve --mode=development"
+    },
+    "dependencies": {
+        "@mantine/core": "^4.1.4",
+        "@mantine/hooks": "^4.1.4",
+        "@reduxjs/toolkit": "^1.8.1",
+        "ajv": "^8.11.0",
+        "d3": "^7.4.4",
+        "react": "^18.0.0",
+        "react-beautiful-dnd": "^13.1.0",
+        "react-dom": "^18.0.0",
+        "react-redux": "^8.0.0",
+        "tabler-icons-react": "^1.45.0"
+    },
+    "devDependencies": {
+        "@types/d3": "^7.1.0",
+        "@types/react": "^18.0.5",
+        "@types/react-beautiful-dnd": "^13.1.2",
+        "@types/react-dom": "^18.0.1",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "prettier": "^2.6.2",
+        "terser-webpack-plugin": "^5.3.1",
+        "ts-loader": "^9.2.8",
+        "typescript": "^4.6.3",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.8.1"
+    }
+}

@@ -1,0 +1,104 @@
+[
+    {
+        "id": "c1",
+        "type": "cluster",
+        "name": "кластер1",
+        "children": [
+            {
+                "id": "g1",
+                "type": "group",
+                "name": "группа1",
+                "children": [
+                    {
+                        "id": "p1",
+                        "type": "product",
+                        "name": "продукт1"
+                    },
+                    {
+                        "id": "p2",
+                        "type": "product",
+                        "name": "продукт2"
+                    },
+                    {
+                        "id": "p3",
+                        "type": "product",
+                        "name": "продукт3"
+                    }
+                ]
+            },
+            {
+                "id": "g2",
+                "type": "group",
+                "name": "группа2",
+                "children": [
+                    {
+                        "id": "p11",
+                        "type": "product",
+                        "name": "продукт11"
+                    },
+                    {
+                        "id": "p22",
+                        "type": "product",
+                        "name": "продукт22"
+                    },
+                    {
+                        "id": "p33",
+                        "type": "product",
+                        "name": "продукт33"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c2",
+        "type": "cluster",
+        "name": "кластер2",
+        "children": [
+            {
+                "id": "g4",
+                "type": "group",
+                "name": "группа4",
+                "children": [
+                    {
+                        "id": "p111",
+                        "type": "product",
+                        "name": "продукт111"
+                    },
+                    {
+                        "id": "p222",
+                        "type": "product",
+                        "name": "продукт222"
+                    },
+                    {
+                        "id": "p333",
+                        "type": "product",
+                        "name": "продукт333"
+                    }
+                ]
+            },
+            {
+                "id": "g5",
+                "type": "group",
+                "name": "группа5",
+                "children": [
+                    {
+                        "id": "p1111",
+                        "type": "product",
+                        "name": "продукт1111"
+                    },
+                    {
+                        "id": "p2222",
+                        "type": "product",
+                        "name": "продукт2222"
+                    },
+                    {
+                        "id": "p3333",
+                        "type": "product",
+                        "name": "продукт3333"
+                    }
+                ]
+            }
+        ]
+    }
+]
