@@ -4,7 +4,7 @@
  Если хотите запустить исходник
  
  В репозитории 2 папки:
- build - собранный проект. Достаточно просто открыть в браузере запустить файл index.html
- source - исходный код. Жля запуска введите в консоле:
- yarn install or npx yarn install
- yarn serve or npx yarn serve
+ #build - собранный проект. Достаточно просто открыть в браузере запустить файл index.html;
+ #source - исходный код. Жля запуска введите в консоле:
+ #yarn install or npx yarn install;
+ #yarn serve or npx yarn serve;
